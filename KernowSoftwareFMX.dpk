@@ -31,7 +31,8 @@ package KernowSoftwareFMX;
 requires
   rtl,
   fmx,
-  designide;
+  designide,
+  TMSFMXPackPkgDXE10;
 
 contains
   ksSlideMenu in 'ksSlideMenu.pas',

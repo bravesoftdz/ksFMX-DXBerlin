@@ -3176,8 +3176,7 @@ begin
     FUpdating := False;
     FCanSelect := True;
     FTagString := '';
-    if (FTagStringList = nil) then
-      FTagStringList.Create;
+    FTagStringList:= TStringList.Create;
     FTagStringList.Text := '';
     FTagInteger := 0;
     FTagFloat := 0;

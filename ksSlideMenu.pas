@@ -755,7 +755,8 @@ begin
       end
       else
       begin
-        ARow := lv.Items.AddItem(AItem.Text, '', '', atMore);
+        //ARow := lv.Items.AddItem(AItem.Text, '', '', atMore);
+        ARow := lv.Items.AddItem(AItem.Text, atMore);
         ARow.Image.Bitmap := AItem.Image;
         ARow.ID := AItem.ID;
         ARow.Accessory.OwnsBitmap := True;
